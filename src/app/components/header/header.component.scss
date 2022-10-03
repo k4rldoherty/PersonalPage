@@ -1,0 +1,26 @@
+.header-container {
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    background-color: black;
+    .logo {
+        margin-left: 1vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: white;
+    }
+    .header-items {
+        display: flex;
+        width: 50vw;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        button {
+            padding: 1vh 1vw;
+            color: white;
+            border: none;
+            background-color: black;
+        }
+    }
+}
