@@ -7,8 +7,27 @@ body {
     padding: 0 !important;
     font-family: 'Noto Sans Mono', monospace;
     color: white;
-}
+    a {
+        text-decoration: none;
+        color: white;
+        border: none;
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.3s;
+    }
 
-.middle {
-    background-color: #000000;
+    a:hover {
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    ul {
+        list-style: none;
+        color: white;
+        font-size: larger;
+        li {
+            float: left;
+            padding-right: 5vw;
+        }
+    }
 }

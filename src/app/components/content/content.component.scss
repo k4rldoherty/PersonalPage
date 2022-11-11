@@ -1,7 +1,7 @@
 .content-container {
     display: flex;
     height: 92vh;
-    width: 99.75vw;
+    width: 100vw;
     justify-content: center;
     background-image: url("../../../assets/background.png");
     background-color: #181818;
@@ -30,15 +30,6 @@
             opacity: 1;
             .socials {
                 display: flex;
-                ul {
-                    list-style: none;
-                    color: white;
-                    font-size: larger;
-                    li {
-                        float: left;
-                        padding-right: 5vw;
-                    }
-                }
             }
         }
     }
