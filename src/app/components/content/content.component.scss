@@ -2,5 +2,37 @@
     display: flex;
     height: 91.85vh;
     width: 94.75vw;
+    justify-content: center;
+    // align-items: center;
     background-image: url("../../../assets/background.webp");
+    .main-content {
+        display: flex;
+        margin: 2vh 1vw;
+        .photo {
+            margin-top: 3.5vh;
+            margin-left: 1vh;
+            margin-right: 1vh;
+            img{
+                border-radius: 50%;
+                height: 25vh;
+            }
+        }
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            .socials {
+                display: flex;
+                ul {
+                    list-style: none;
+                    color: white;
+                    font-size: larger;
+                    li {
+                        float: left;
+                        padding-right: 5vw;
+                    }
+                }
+            }
+        }
+    }
 }

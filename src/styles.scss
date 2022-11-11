@@ -1,8 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;700&family=Trispace&display=swap');
+
 body {
     border: none !important;
     margin: 0px !important;
     padding: 0 !important;
+    font-family: 'Noto Sans Mono', monospace;
+    color: white;
 }
 
 .middle {
