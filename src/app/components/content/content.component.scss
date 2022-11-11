@@ -1,28 +1,33 @@
 .content-container {
     display: flex;
-    height: 91.85vh;
-    width: 94.75vw;
+    height: 92vh;
+    width: 99.75vw;
     justify-content: center;
-    // align-items: center;
-    // background-image: url("../../../assets/background.webp");
+    background-image: url("../../../assets/background.png");
     background-color: #181818;
-    border-radius: 1vh 0 0 0;
     .main-content {
         display: flex;
         margin: 2vh 3vw;
+        border-radius: 2vh;
+        background-color: black;
+        padding: 1vh 1vw;
+        opacity: 0.95;
         .photo {
             margin-top: 8vh;
             margin-left: 1vh;
             margin-right: 1vh;
-            img{
+            img {
                 border-radius: 50%;
                 height: 22vh;
+                opacity: 1;
             }
         }
         .text {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+            width: 50vw;
+            opacity: 1;
             .socials {
                 display: flex;
                 ul {

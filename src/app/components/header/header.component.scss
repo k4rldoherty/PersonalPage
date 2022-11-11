@@ -1,8 +1,9 @@
 .header-container {
     display: flex;
-    height: 8vh;
+    height: 7.9vh;
     justify-content: space-between;
     background-color: black;
+    border-bottom: 0.01vh solid white;
     .logo {
         margin-left: 2vw;
         display: flex;
@@ -16,11 +17,18 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        button {
-            padding: 1vh 1vw;
+        a {
+            text-decoration: none;
             color: white;
             border: none;
             background-color: black;
+            opacity: 0.6;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            color: #FFFFFF;
+            opacity: 1;
         }
     }
 }
