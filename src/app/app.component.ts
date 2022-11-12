@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import {
-  trigger, state, style, animate, transition, query, group
- } from '@angular/animations';
+import { slideInAnimation } from './app.animation';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  animations: [slideInAnimation]
 })
 export class AppComponent {
   title = 'personal-page';

@@ -1,0 +1,36 @@
+<div class="projects-container">
+    <div class="main-content">
+        <div class="projects">
+            <div class="title">
+                <h1>Some of the projects I have worked on or am currently working on</h1>
+            </div>
+            <div class="projects-slideshow">
+                <div class="arrow">
+                    <button (click)="changeProject(-1)" [disabled]="leftArrowDisabled">
+                        <h1>
+                            <fa-icon [icon]="faChevronLeft"></fa-icon>
+                        </h1>
+                    </button>
+                </div>
+                <div class="project">
+                    <div class="proj-title">
+                        <h3>{{ projectsList[projectIndex].title }}</h3>
+                    </div>
+                    <div class="project-picture">
+                        <p>{{ projectsList[projectIndex].imgSrc }}</p>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <button (click)="changeProject(1)" [disabled]="rightArrowDisabled">
+                        <h1>
+                            <fa-icon [icon]="faChevronRight"></fa-icon>
+                        </h1>
+                    </button>
+                </div>
+            </div>
+            <div class="description">
+                {{ projectsList[projectIndex].description }}
+            </div>
+        </div>
+    </div>
+</div>
