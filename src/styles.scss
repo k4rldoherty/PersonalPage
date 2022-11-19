@@ -6,8 +6,9 @@ body {
     margin: 0px !important;
     padding: 0 !important;
     font-family: 'Noto Sans Mono', monospace;
-    color: white;
+    color: #2B303A;
     background-color: #FFF4E4;
+    background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
     a {
         text-decoration: none;
         color: #FFFFFF;
@@ -33,4 +34,5 @@ body {
         border: none;
         background-color: transparent;
     }
+
 }
