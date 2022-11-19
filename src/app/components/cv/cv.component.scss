@@ -1,4 +1,4 @@
-.about-container {
+.cv-container {
     display: flex;
     height: 92vh;
     width: 100vw;
@@ -16,29 +16,21 @@
         -moz-box-shadow: 1px 10px 21px 0px rgba(84,84,84,0.74);
         padding: 1vh 1vw;
         opacity: 0.95;
-        .about {
+        .cv {
             display: flex;
             flex-direction: column;
             align-items: center;
             width: 60vw;
             margin: 2vh 2vw;
             overflow: auto;
-
-            .title {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-
             .text {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-                width: 50vw;
+                width: 60vw;
+                height: 90vh;
                 opacity: 1;
-                overflow: auto;
-                padding: 0 5vw;
             }
         }
     }
