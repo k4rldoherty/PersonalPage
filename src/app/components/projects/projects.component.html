@@ -2,7 +2,7 @@
     <div class="main-content">
         <div class="projects">
             <div class="title">
-                <h1>Some of the projects I have worked on or am currently working on</h1>
+                <h1>Some of my work can be found below!</h1>
             </div>
             <div class="projects-slideshow">
                 <div class="arrow">
@@ -17,7 +17,8 @@
                         <h3>{{ projectsList[projectIndex].title }}</h3>
                     </div>
                     <div class="project-picture">
-                        <p>{{ projectsList[projectIndex].imgSrc }}</p>
+                        <img src="../../../assets/artistConnect.png" alt="" *ngIf="artistConnect">
+                        <img src="../../../assets/premNews.png" alt="" *ngIf="!artistConnect">
                     </div>
                 </div>
                 <div class="arrow">
@@ -29,7 +30,7 @@
                 </div>
             </div>
             <div class="description">
-                {{ projectsList[projectIndex].description }}
+                <h3>{{ projectsList[projectIndex].description }}</h3>
             </div>
         </div>
     </div>

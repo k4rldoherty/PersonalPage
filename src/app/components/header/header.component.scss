@@ -1,17 +1,22 @@
 .header-container {
     display: flex;
-    height: 7.9vh;
+    height: 8vh;
     width: 100vw;
     justify-content: space-between;
-    background-color: black;
-    border-bottom: 0.01vh solid white;
+    background: rgb(23, 18, 115);
+    background-image: linear-gradient(65.9deg, rgba(85, 228, 224, 1) 5.5%, rgba(75, 68, 224, 0.74) 54.2%, rgba(64, 198, 238, 1) 55.2%, rgba(177, 36, 224, 1) 98.4%);
+    box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
+    -webkit-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
+    -moz-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
+
     .logo {
         margin-left: 2vw;
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        color: white;
+        color: #2B303A;
     }
+
     .header-items {
         display: flex;
         width: 50vw;

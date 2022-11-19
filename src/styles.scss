@@ -7,27 +7,30 @@ body {
     padding: 0 !important;
     font-family: 'Noto Sans Mono', monospace;
     color: white;
+    background-color: #FFF4E4;
     a {
         text-decoration: none;
-        color: white;
+        color: #FFFFFF;
         border: none;
-        background-color: black;
-        opacity: 0.6;
         transition: 0.3s;
     }
-
+    
     a:hover {
-        color: #FFFFFF;
-        opacity: 1;
+        color: #2B303A;
     }
 
     ul {
         list-style: none;
-        color: white;
+        color: #2B303A;
         font-size: larger;
         li {
             float: left;
             padding-right: 5vw;
         }
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
     }
 }

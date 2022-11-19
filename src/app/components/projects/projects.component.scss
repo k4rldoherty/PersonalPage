@@ -3,38 +3,43 @@
     height: 92vh;
     width: 100vw;
     justify-content: center;
-    background-image: url("../../../assets/background.png");
-    background-color: #181818;
     .main-content {
         display: flex;
         flex-direction: row;
-        // align-items: center;
         margin: 2vh 3vw;
         border-radius: 2vh;
-        background-color: black;
+        background-image: linear-gradient(65.9deg, rgba(85, 228, 224, 1) 5.5%, rgba(75, 68, 224, 0.74) 54.2%, rgba(64, 198, 238, 1) 55.2%, rgba(177, 36, 224, 1) 98.4%);
+        box-shadow: 1px 10px 21px 0px rgba(84,84,84,0.74);
+        -webkit-box-shadow: 1px 10px 21px 0px rgba(84,84,84,0.74);
+        -moz-box-shadow: 1px 10px 21px 0px rgba(84,84,84,0.74);
         padding: 1vh 1vw;
         opacity: 0.95;
+
         .projects {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 4vh;
+
             .title {
                 display: flex;
                 justify-content: center;
                 align-items: center;
             }
+
             .projects-slideshow {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
                 align-items: center;
+
                 .arrow {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     width: 5vw;
                 }
+
                 .project {
                     display: flex;
                     flex-direction: column;
@@ -42,6 +47,7 @@
                     height: 60vh;
                     justify-content: center;
                     align-items: center;
+
                     .proj-title {
                         display: flex;
                         height: 3vh;
@@ -49,19 +55,28 @@
                         justify-content: center;
                         align-items: center;
                     }
+
                     .project-picture {
                         display: flex;
                         height: 55vh;
                         width: 60vw;
                         justify-content: center;
                         align-items: center;
+
+                        img {
+                            border-radius: 1%;
+                            max-width: 100%;
+                            max-height: 100%;
+                        }
                     }
                 }
             }
+
             .description {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                text-align: center;
                 height: 10vh;
                 width: 60vw;
             }

@@ -14,17 +14,20 @@ export class ProjectsComponent implements OnInit {
   leftArrowDisabled!: boolean;
   rightArrowDisabled!: boolean;
 
+  // temporary implementation
+  artistConnect: boolean = true;
+
   projectsList : any = [
     {
-      title: "PremNews",
-      imgSrc: "exampleSrc",
-      description: "ExampleDescription"
+      title: "ArtistConnect",
+      imgSrc: "W.I.P",
+      description: "A social media application I am currently developing as part of my final year of college ( more photos to come )."
     },
     {
-      title: "Project 2",
-      imgSrc: "exampleSrc2",
-      description: "ExampleDescription2"
-    }
+      title: "PremNews",
+      imgSrc: "W.I.P",
+      description: "An android application I developed to scrape news stories regarding the Premier League and display all links in one application. Users can create accounts and set favourite teams as well as filter stories by date, keyword and team."
+    },
   ]
   constructor() { }
   ngOnInit(): void {
@@ -35,6 +38,7 @@ export class ProjectsComponent implements OnInit {
   changeProject(direction: number) {
     this.projectIndex = this.projectIndex+=direction;
     this.isArrowEnabled();
+    this.artistConnect = !this.artistConnect
   }
 
   isArrowEnabled() {
