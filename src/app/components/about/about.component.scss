@@ -45,6 +45,9 @@
                 opacity: 1;
                 overflow: auto;
                 padding: 0 5vw;
+                p {
+                    overflow: auto;
+                }
             }
         }
     }

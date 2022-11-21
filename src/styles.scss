@@ -11,9 +11,12 @@ body {
     background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );
     a {
         text-decoration: none;
-        color: #FFFFFF;
+        color: #FFF4E4;
         border: none;
         transition: 0.3s;
+        .active {
+            color: #2B303A;
+        }
     }
     
     a:hover {

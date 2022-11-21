@@ -34,19 +34,23 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                overflow: auto;
+                position: relative;
 
                 .form-group {
                     width: 40vw;
                     display: flex;
                     flex-direction: column;
+                    padding-left: 1vw;
+                    overflow: auto;
 
                     input {
                         height: 3vh;
                         width: 25vh;
                         border-radius: 0.75vh;
-                        box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
-                        -webkit-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
-                        -moz-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
+                        // box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
+                        // -webkit-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
+                        // -moz-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
                         border: none;
                     }
 
@@ -55,9 +59,9 @@
                         width: 30vw;
                         max-height: 35vh;
                         max-width: 40vw;
-                        box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
-                        -webkit-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
-                        -moz-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
+                        // box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
+                        // -webkit-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
+                        // -moz-box-shadow: 1px 10px 21px 0px rgba(84, 84, 84, 0.74);
                         border: none;
                         border-radius: 0.75vh;
                     }

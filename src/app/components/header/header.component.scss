@@ -18,6 +18,11 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        padding-right: 2vw;
         gap: 2.5vw;
+
+        .active {
+            color: #2B303A;
+        }
     }
 }
