@@ -37,6 +37,10 @@
             padding: 0 5vw;
             opacity: 1;
             overflow: auto;
+            h2, h3 {
+                text-align: center;
+                margin: 0;
+            }
 
             .socials {
                 display: flex;

@@ -16,6 +16,7 @@ export class ContactComponent implements OnInit {
     this.FormData = this.builder.group({
       Fullname: new FormControl('', [Validators.required]),
       Email: new FormControl('', [Validators.required]),
+      Subject: new FormControl(''),
       Message: new FormControl('', [Validators.required])
     })
   }
@@ -26,6 +27,7 @@ export class ContactComponent implements OnInit {
     this.FormData = this.builder.group({
       Fullname: new FormControl('', [Validators.required]),
       Email: new FormControl('', [Validators.required]),
+      Subject: new FormControl(''),
       Message: new FormControl('', [Validators.required])
     })
   }

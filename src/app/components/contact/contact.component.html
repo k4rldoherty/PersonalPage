@@ -7,16 +7,20 @@
             <div class="form">
                 <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)">
                     <div class="form-group">
-                        <label for="Email"><h3>Email</h3></label>
+                        <label for="Email"><h4>Email</h4></label>
                         <input type="email" class="form-control" name="Email" aria-describedby="emailHelp"
                             placeholder="Enter email" formControlName="Email">
                     </div>
                     <div class="form-group">
-                        <label for="fullname"><h3>Full Name</h3></label>
+                        <label for="fullname"><h4>Full Name</h4></label>
                         <input type="text" class="form-control" name="Fullname" placeholder="Full Name" formControlName="Fullname">
                     </div>
                     <div class="form-group">
-                        <label for="Message"><h3>Message</h3></label>
+                        <label for="subject"><h4>Subject</h4></label>
+                        <input type="text" class="form-control" name="Subejct" placeholder="Subject" formControlName="Subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="Message"><h4>Message</h4></label>
                         <textarea class="form-control" formControlName="Message" name="Message"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary" [disabled]="!FormData.valid"><h2>Submit</h2></button>

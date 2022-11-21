@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core'; 
-import { faChevronLeft, faChevronRight, faL } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-projects',
@@ -21,7 +21,7 @@ export class ProjectsComponent implements OnInit {
     {
       title: "ArtistConnect",
       imgSrc: "W.I.P",
-      description: "A social media application I am currently developing as part of my final year of college ( more photos to come )."
+      description: "A social media application I am currently developing as part of my final year of college (more photos to come)."
     },
     {
       title: "PremNews",
